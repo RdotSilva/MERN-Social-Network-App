@@ -5,6 +5,7 @@ module.exports = function validateRegisterInput(data) {
 	let errors = {};
 
 	data.name = !isEmpty(data.name) ? data.name : '';
+	data.email = !isEmpty(data.email) ? data.email : '';
 
 	if (!Validator.isLength(data.name, { min: 2, max: 30 })) {
 		errors.name = 'Name must be between 2 and 30 characters';

@@ -63,9 +63,9 @@ router.post('/register', (req, res) => {
 	});
 });
 
-// @route GET api/users/login
-// @desc Login User / Returning JWT Token
-// @access Public
+// @route   GET api/users/login
+// @desc    Login User / Returning JWT Token
+// @access  Public
 
 router.post('/login', (req, res) => {
 	const { errors, isValid } = validateLoginInput(req.body);
@@ -90,13 +90,11 @@ router.post('/login', (req, res) => {
 		bcrypt.compare(password, user.password).then(isMatch => {
 			if (isMatch) {
 				// User Matched
-
-				// Create JWT Payload
 				const payload = {
 					id: user.id,
 					name: user.name,
 					avatar: user.avatar
-				};
+				}; // Create JWT Payload
 
 				// Sign Token
 				jwt.sign(

@@ -250,7 +250,7 @@ router.post(
 // @desc Delete experience from profile
 // @access Private
 
-router.post(
+router.delete(
 	'/experience/:exp_id',
 	passport.authenticate('jwt', { session: false }),
 	(req, res) => {

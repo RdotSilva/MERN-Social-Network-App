@@ -284,7 +284,7 @@ router.delete(
 				// Get remove index
 				const removeIndex = profile.education
 					.map(item => item.id)
-					.indexOf(req.params.edu);
+					.indexOf(req.params.edu_id);
 
 				// Splice out of array
 				profile.education.splice(removeIndex, 1);

@@ -29,7 +29,7 @@ class Register extends Component {
 										className="form-control form-control-lg"
 										placeholder="Name"
 										name="name"
-										required
+										value={this.state.name}
 									/>
 								</div>
 								<div className="form-group">
@@ -38,6 +38,7 @@ class Register extends Component {
 										className="form-control form-control-lg"
 										placeholder="Email Address"
 										name="email"
+										value={this.state.email}
 									/>
 									<small className="form-text text-muted">
 										This site uses Gravatar so if you want a
@@ -50,6 +51,7 @@ class Register extends Component {
 										className="form-control form-control-lg"
 										placeholder="Password"
 										name="password"
+										value={this.state.password}
 									/>
 								</div>
 								<div className="form-group">
@@ -58,6 +60,7 @@ class Register extends Component {
 										className="form-control form-control-lg"
 										placeholder="Confirm Password"
 										name="password2"
+										value={this.state.password2}
 									/>
 								</div>
 								<input

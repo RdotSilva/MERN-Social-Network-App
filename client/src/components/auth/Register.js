@@ -12,6 +12,10 @@ class Register extends Component {
 		};
 	}
 
+	onChange = e => {
+		this.setState({ [e.target.name]: e.target.value });
+	};
+
 	render() {
 		return (
 			<div className="register">
@@ -30,6 +34,7 @@ class Register extends Component {
 										placeholder="Name"
 										name="name"
 										value={this.state.name}
+										onChange={this.onChange}
 									/>
 								</div>
 								<div className="form-group">
@@ -39,6 +44,7 @@ class Register extends Component {
 										placeholder="Email Address"
 										name="email"
 										value={this.state.email}
+										onChange={this.onChange}
 									/>
 									<small className="form-text text-muted">
 										This site uses Gravatar so if you want a
@@ -52,6 +58,7 @@ class Register extends Component {
 										placeholder="Password"
 										name="password"
 										value={this.state.password}
+										onChange={this.onChange}
 									/>
 								</div>
 								<div className="form-group">
@@ -61,6 +68,7 @@ class Register extends Component {
 										placeholder="Confirm Password"
 										name="password2"
 										value={this.state.password2}
+										onChange={this.onChange}
 									/>
 								</div>
 								<input

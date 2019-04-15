@@ -10,6 +10,21 @@ class Login extends Component {
 		};
 	}
 
+	onChange = e => {
+		this.setState({ [e.target.name]: e.target.value });
+	};
+
+	onSubmit = e => {
+		e.preventDefault();
+
+		const user = {
+			email: this.state.email,
+			password: this.state.password
+		};
+
+		console.log(user);
+	};
+
 	render() {
 		return (
 			<div className="login">
@@ -27,6 +42,8 @@ class Login extends Component {
 										className="form-control form-control-lg"
 										placeholder="Email Address"
 										name="email"
+										value={this.state.email}
+										onChange={this.onChange}
 									/>
 								</div>
 								<div className="form-group">
@@ -35,6 +52,8 @@ class Login extends Component {
 										className="form-control form-control-lg"
 										placeholder="Password"
 										name="password"
+										value={this.state.password}
+										onChange={this.onChange}
 									/>
 								</div>
 								<input

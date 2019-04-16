@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
+import classnames from 'classnames';
 import { loginUser } from '../../actions/authActions';
 
 class Login extends Component {
@@ -29,6 +30,8 @@ class Login extends Component {
 	};
 
 	render() {
+		const { errors } = this.state;
+
 		return (
 			<div className="login">
 				<div className="container">

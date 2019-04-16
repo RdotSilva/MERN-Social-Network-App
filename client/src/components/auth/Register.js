@@ -16,6 +16,12 @@ class Register extends Component {
 		};
 	}
 
+	componentWillReceiveProps(nextProps) {
+		if (nextProps.errors) {
+			this.setState({ errors: nextProps.errors });
+		}
+	}
+
 	onChange = e => {
 		this.setState({ [e.target.name]: e.target.value });
 	};
@@ -36,11 +42,8 @@ class Register extends Component {
 	render() {
 		const { errors } = this.state;
 
-		const { user } = this.props.auth;
-
 		return (
 			<div className="register">
-				{user ? user.name : null}
 				<div className="container">
 					<div className="row">
 						<div className="col-md-8 m-auto">

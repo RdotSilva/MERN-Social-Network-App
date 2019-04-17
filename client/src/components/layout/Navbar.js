@@ -5,20 +5,22 @@ import { connect } from 'react-redux';
 import { logoutUser } from '../../actions/authActions';
 
 class Navbar extends Component {
+	onLogoutClick(e) {
+		e.preventDefault();
+		this.props.logoutUser();
+	}
+
 	render() {
 		const { isAuthenticated, user } = this.props.auth;
 
 		const authLinks = (
 			<ul className="navbar-nav ml-auto">
 				<li className="nav-item">
-					<Link className="nav-link" to="/register">
-						Sign Up
-					</Link>
-				</li>
-				<li className="nav-item">
-					<Link className="nav-link" to="/login">
-						Login
-					</Link>
+					<a
+						href="#"
+						onClick={this.onLogoutClick.bind(this)}
+						className="nav-link"
+					/>
 				</li>
 			</ul>
 		);

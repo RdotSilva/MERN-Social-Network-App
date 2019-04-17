@@ -51,7 +51,7 @@ class Navbar extends Component {
 }
 
 Navbar.propTypes = {
-	logoutUser: PropTypes.func.isRquired,
+	logoutUser: PropTypes.func.isRequired,
 	auth: PropTypes.object.isRequired
 };
 
@@ -59,4 +59,7 @@ const mapStateToProps = state => ({
 	auth: state.auth
 });
 
-export default Navbar;
+export default connect(
+	mapStateToProps,
+	{ logoutUser }
+)(Navbar);

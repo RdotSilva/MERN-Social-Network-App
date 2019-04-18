@@ -68,26 +68,14 @@ class Login extends Component {
 									errors={errors.email}
 								/>
 
-								<div className="form-group">
-									<input
-										type="password"
-										className={classnames(
-											'form-control form-control-lg',
-											{
-												'is-invalid': errors.password
-											}
-										)}
-										placeholder="Password"
-										name="password"
-										value={this.state.password}
-										onChange={this.onChange}
-									/>
-									{errors.password && (
-										<div className="invalid-feedback">
-											{errors.password}
-										</div>
-									)}
-								</div>
+								<TextFieldGroup
+									placeholder="Password"
+									name="password"
+									type="password"
+									value={this.state.password}
+									onChange={this.onChange}
+									errors={errors.password}
+								/>
 								<input
 									type="submit"
 									className="btn btn-info btn-block mt-4"

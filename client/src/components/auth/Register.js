@@ -4,6 +4,7 @@ import { withRouter } from 'react-router-dom';
 import classnames from 'classnames';
 import { connect } from 'react-redux';
 import { registerUser } from '../../actions/authActions';
+import TextFieldGroup from '../common/TextFieldGroup';
 
 class Register extends Component {
 	constructor() {
@@ -59,26 +60,13 @@ class Register extends Component {
 								Create your DevConnector account
 							</p>
 							<form noValidate onSubmit={this.onSubmit}>
-								<div className="form-group">
-									<input
-										type="text"
-										className={classnames(
-											'form-control form-control-lg',
-											{
-												'is-invalid': errors.name
-											}
-										)}
-										placeholder="Name"
-										name="name"
-										value={this.state.name}
-										onChange={this.onChange}
-									/>
-									{errors.name && (
-										<div className="invalid-feedback">
-											{errors.name}
-										</div>
-									)}
-								</div>
+								<TextFieldGroup
+									placeholder="Name"
+									name="name"
+									value={this.state.name}
+									onChange={this.onChange}
+									error={errors.name}
+								/>
 								<div className="form-group">
 									<input
 										type="email"

@@ -76,26 +76,14 @@ class Register extends Component {
 									error={errors.email}
 									info="This site uses Gravatar so if you want a profile image, use a Gravatar email"
 								/>
-								<div className="form-group">
-									<input
-										type="password"
-										className={classnames(
-											'form-control form-control-lg',
-											{
-												'is-invalid': errors.password
-											}
-										)}
-										placeholder="Password"
-										name="password"
-										value={this.state.password}
-										onChange={this.onChange}
-									/>
-									{errors.password && (
-										<div className="invalid-feedback">
-											{errors.password}
-										</div>
-									)}
-								</div>
+								<TextFieldGroup
+									placeholder="Password"
+									name="password"
+									type="password"
+									value={this.state.password}
+									onChange={this.onChange}
+									error={errors.password}
+								/>
 								<div className="form-group">
 									<input
 										type="password"

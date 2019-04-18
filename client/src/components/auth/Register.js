@@ -67,30 +67,15 @@ class Register extends Component {
 									onChange={this.onChange}
 									error={errors.name}
 								/>
-								<div className="form-group">
-									<input
-										type="email"
-										className={classnames(
-											'form-control form-control-lg',
-											{
-												'is-invalid': errors.email
-											}
-										)}
-										placeholder="Email Address"
-										name="email"
-										value={this.state.email}
-										onChange={this.onChange}
-									/>
-									{errors.email && (
-										<div className="invalid-feedback">
-											{errors.email}
-										</div>
-									)}
-									<small className="form-text text-muted">
-										This site uses Gravatar so if you want a
-										profile image, use a Gravatar email
-									</small>
-								</div>
+								<TextFieldGroup
+									placeholder="Email"
+									name="email"
+									type="email"
+									value={this.state.email}
+									onChange={this.onChange}
+									error={errors.email}
+									info="This site uses Gravatar so if you want a profile image, use a Gravatar email"
+								/>
 								<div className="form-group">
 									<input
 										type="password"

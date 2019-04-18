@@ -65,7 +65,7 @@ class Login extends Component {
 									type="email"
 									value={this.state.email}
 									onChange={this.onChange}
-									errors={errors.email}
+									error={errors.email}
 								/>
 
 								<TextFieldGroup
@@ -74,7 +74,7 @@ class Login extends Component {
 									type="password"
 									value={this.state.password}
 									onChange={this.onChange}
-									errors={errors.password}
+									error={errors.password}
 								/>
 								<input
 									type="submit"

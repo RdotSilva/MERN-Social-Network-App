@@ -137,6 +137,15 @@ class CreateProfile extends Component {
 									error={errors.location}
 									info="City or city & state suggested (eg. Boston, MA)"
 								/>
+								<TextFieldGroup
+									placeholder="* Skills"
+									name="skills"
+									value={this.state.skills}
+									onChange={this.onChange}
+									error={errors.skills}
+									info="Please use comma separated values (eg.
+                    HTML,CSS,JavaScript,PHP"
+								/>
 							</form>
 						</div>
 					</div>

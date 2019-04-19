@@ -71,6 +71,14 @@ class CreateProfile extends Component {
 						onChange={this.onChange}
 						error={errors.linkedin}
 					/>
+					<InputGroup
+						placeholder="YouTube Channel URL"
+						name="youtube"
+						icon="fab fa-youtube"
+						value={this.state.youtube}
+						onChange={this.onChange}
+						error={errors.youtube}
+					/>
 				</div>
 			);
 		}

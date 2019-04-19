@@ -75,7 +75,7 @@ class CreateProfile extends Component {
 						name="twitter"
 						icon="fab fa-twitter"
 						value={this.state.twitter}
-						onChange={this.state.onChange}
+						onChange={this.onChange}
 						error={errors.twitter}
 					/>
 

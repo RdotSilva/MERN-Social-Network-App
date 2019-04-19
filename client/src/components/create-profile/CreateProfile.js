@@ -129,6 +129,14 @@ class CreateProfile extends Component {
 									error={errors.website}
 									info="Could be your own website or a company one"
 								/>
+								<TextFieldGroup
+									placeholder="Location"
+									name="location"
+									value={this.state.location}
+									onChange={this.onChange}
+									error={errors.location}
+									info="City or city & state suggested (eg. Boston, MA)"
+								/>
 							</form>
 						</div>
 					</div>

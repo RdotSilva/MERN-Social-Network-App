@@ -4,6 +4,7 @@ import jwt_decode from 'jwt-decode';
 import setAuthToken from './utils/setAuthToken';
 import { setCurrentUser, logoutUser } from './actions/authActions';
 import { clearCurrentProfile } from './actions/profileActions';
+import { EditProfile } from './components/edit-profile/EditProfile';
 
 import { Provider } from 'react-redux';
 import store from './store';
@@ -68,6 +69,13 @@ class App extends Component {
 									exact
 									path="/create-profile"
 									component={CreateProfile}
+								/>
+							</Switch>
+							<Switch>
+								<PrivateRoute
+									exact
+									path="/edit-profile"
+									component={EditProfile}
 								/>
 							</Switch>
 						</div>

@@ -5,6 +5,7 @@ import setAuthToken from './utils/setAuthToken';
 import { setCurrentUser, logoutUser } from './actions/authActions';
 import { clearCurrentProfile } from './actions/profileActions';
 import EditProfile from './components/edit-profile/EditProfile';
+import AddExperience from './components/add-credentials/AddExperience';
 
 import { Provider } from 'react-redux';
 import store from './store';
@@ -76,6 +77,13 @@ class App extends Component {
 									exact
 									path="/edit-profile"
 									component={EditProfile}
+								/>
+							</Switch>
+							<Switch>
+								<PrivateRoute
+									exact
+									path="/add-experience"
+									component={AddExperience}
 								/>
 							</Switch>
 						</div>

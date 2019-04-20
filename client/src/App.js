@@ -4,7 +4,7 @@ import jwt_decode from 'jwt-decode';
 import setAuthToken from './utils/setAuthToken';
 import { setCurrentUser, logoutUser } from './actions/authActions';
 import { clearCurrentProfile } from './actions/profileActions';
-import { EditProfile } from './components/edit-profile/EditProfile';
+import EditProfile from './components/edit-profile/EditProfile';
 
 import { Provider } from 'react-redux';
 import store from './store';

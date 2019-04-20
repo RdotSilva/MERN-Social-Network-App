@@ -31,6 +31,14 @@ class Dashboard extends Component {
 							</Link>
 						</p>
 						<ProfileActions />
+						{/* TODO: exp and edu */}
+						<div style={{ marginBottom: '60px' }} />
+						<button
+							onClick={this.onDeleteClick}
+							className="btn btn-danger"
+						>
+							Delete My Account
+						</button>
 					</div>
 				);
 			} else {

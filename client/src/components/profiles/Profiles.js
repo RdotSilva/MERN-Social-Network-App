@@ -5,6 +5,10 @@ import Spinner from '../common/Spinner';
 import { getProfiles } from '../../actions/profileActions';
 
 class Profiles extends Component {
+	componentDidMount() {
+		this.props.getProfiles();
+	}
+
 	render() {
 		return <div />;
 	}

@@ -5,6 +5,13 @@ import TextAreaFieldGroup from '../common/TextAreaFieldGroup';
 import { addPost } from '../../actions/postActions';
 
 class PostForm extends Component {
+	constructor(props) {
+		super(props);
+		this.state = {
+			text: '',
+			errors: {}
+		};
+	}
 	render() {
 		return <div />;
 	}

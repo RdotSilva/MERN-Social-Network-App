@@ -14,6 +14,10 @@ class PostItem extends Component {
 		this.props.addLike(id);
 	}
 
+	onUnlikeClick(id) {
+		this.props.unLike(id);
+	}
+
 	render() {
 		const { post, auth } = this.props;
 

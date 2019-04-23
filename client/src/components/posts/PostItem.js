@@ -15,7 +15,7 @@ class PostItem extends Component {
 	}
 
 	onUnlikeClick(id) {
-		this.props.unLike(id);
+		this.props.removeLike(id);
 	}
 
 	render() {

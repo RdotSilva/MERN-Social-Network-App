@@ -20,6 +20,10 @@ class Posts extends Component {
 	}
 }
 
+Posts.propTypes = {
+	post: PropTypes.object.isRequired
+};
+
 mapStateToProps = state => ({
 	post: state.post
 });

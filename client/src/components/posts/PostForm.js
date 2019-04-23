@@ -11,11 +11,17 @@ class PostForm extends Component {
 			text: '',
 			errors: {}
 		};
-		// this.onChange = this.onChange.bind(this);
-		// this.onSubmit = this.onSubmit.bind(this);
+		this.onChange = this.onChange.bind(this);
+		this.onSubmit = this.onSubmit.bind(this);
 	}
 
-	onSubmit = e => {
+	componentWillReceiveProps(newProps) {
+		if (newProps.errors) {
+			this.setState({ errors: newProps.errors });
+		}
+	}
+
+	onSubmit(e) {
 		e.preventDefault();
 
 		const { user } = this.props.auth;
@@ -28,11 +34,11 @@ class PostForm extends Component {
 
 		this.props.addPost(newPost);
 		this.setState({ text: '' });
-	};
+	}
 
-	onChange = e => {
+	onChange(e) {
 		this.setState({ [e.target.name]: e.target.value });
-	};
+	}
 
 	render() {
 		const { errors } = this.state;

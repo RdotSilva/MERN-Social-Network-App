@@ -3,8 +3,13 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import PostForm from './PostForm';
 import Spinner from '../common/Spinner';
+import { getPosts } from '../../actions/postActions';
 
 class Posts extends Component {
+	componentDidMount() {
+		this.props.getPosts();
+	}
+
 	render() {
 		return (
 			<div className="feed">
@@ -21,11 +26,15 @@ class Posts extends Component {
 }
 
 Posts.propTypes = {
+	getPosts: PropTypes.func.isRequired,
 	post: PropTypes.object.isRequired
 };
 
-mapStateToProps = state => ({
+const mapStateToProps = state => ({
 	post: state.post
 });
 
-export default connect(mapStateToProps)(Posts);
+export default connect(
+	mapStateToProps,
+	{ getPosts }
+)(Posts);

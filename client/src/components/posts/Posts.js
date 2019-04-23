@@ -20,4 +20,8 @@ class Posts extends Component {
 	}
 }
 
-export default Posts;
+mapStateToProps = state => ({
+	post: state.post
+});
+
+export default connect(mapStateToProps)(Posts);

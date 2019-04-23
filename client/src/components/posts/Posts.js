@@ -6,7 +6,17 @@ import Spinner from '../common/Spinner';
 
 class Posts extends Component {
 	render() {
-		return <div />;
+		return (
+			<div className="feed">
+				<div className="container">
+					<div className="row">
+						<div className="col-m-12">
+							<PostForm />
+						</div>
+					</div>
+				</div>
+			</div>
+		);
 	}
 }
 

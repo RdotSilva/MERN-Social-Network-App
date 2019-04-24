@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import PostItem from '../posts/PostItem';
 import Spinner from '../common/Spinner';
@@ -19,12 +20,22 @@ class Post extends Component {
 		} else {
 			postContent = (
 				<div>
-					<PostItem post={post} />
+					<PostItem post={post} showActions={false} />
 				</div>
 			);
 		}
 		return (
-			<div>
+			<div className="post">
+				<div className="container">
+					<div className="row">
+						<div className="col-md-12">
+							<Link to="/feed" className="btn btn-light mb-3">
+								Back To Feed
+							</Link>
+							{postContent}
+						</div>
+					</div>
+				</div>
 				<h1>POST</h1>
 			</div>
 		);

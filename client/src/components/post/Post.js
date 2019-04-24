@@ -5,6 +5,10 @@ import Spinner from '../common/Spinner';
 import { getPost } from '../../actions/postActions';
 
 class Post extends Component {
+	componentDidMount() {
+		this.props.getPost(this.props.match.params.id);
+	}
+
 	render() {
 		return (
 			<div>

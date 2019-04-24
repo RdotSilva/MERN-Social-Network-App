@@ -12,7 +12,7 @@ class Post extends Component {
 	}
 
 	render() {
-		const { post, loading } = this.props;
+		const { post, loading } = this.props.post;
 		let postContent;
 
 		if (post === null || loading || Object.keys(post).length === 0) {
@@ -36,7 +36,6 @@ class Post extends Component {
 						</div>
 					</div>
 				</div>
-				<h1>POST</h1>
 			</div>
 		);
 	}

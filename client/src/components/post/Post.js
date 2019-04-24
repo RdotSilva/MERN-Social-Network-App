@@ -14,6 +14,11 @@ class Post extends Component {
 	}
 }
 
+Post.propTypes = {
+	getPost: PropTypes.func.isRequired,
+	post: PropTypes.object.isRequired
+};
+
 const mapStateToProps = state => ({
 	post: state.post
 });

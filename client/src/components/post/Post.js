@@ -1,4 +1,8 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import PropTypes from 'prop-types';
+import Spinner from '../common/Spinner';
+import { getPost } from '../../actions/postActions';
 
 class Post extends Component {
 	render() {
@@ -10,4 +14,11 @@ class Post extends Component {
 	}
 }
 
-export default Post;
+const mapStateToProps = state => ({
+	post: state.post
+});
+
+export default connect(
+	mapStateToProps,
+	{ getPost }
+)(Post);

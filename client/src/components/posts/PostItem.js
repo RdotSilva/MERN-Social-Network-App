@@ -56,7 +56,6 @@ class PostItem extends Component {
 									type="button"
 									className="btn btn-light mr-1"
 								>
-									s
 									<i
 										className={classnames(
 											'fas fa-thumbs-up',

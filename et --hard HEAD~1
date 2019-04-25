@@ -1,0 +1,545 @@
+[33mcommit ad7a6c6420dbbf6dc86e234284822c58f1b26443[m[33m ([m[1;36mHEAD -> [m[1;32mdeployment[m[33m)[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Thu Apr 25 15:35:23 2019 -0400
+
+    Add keys_prod.js file
+
+[33mcommit 00bcb12743c80d56decd7314502b250ea9caafd3[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Thu Apr 25 15:35:03 2019 -0400
+
+    Add keys_dev.js file
+
+[33mcommit df588fda943f2d567944e5895164cf3e3931832f[m[33m ([m[1;31morigin/posts/comments[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mposts/comments[m[33m, [m[1;32mmaster[m[33m)[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Wed Apr 24 18:31:19 2019 -0400
+
+    Fix typo in like button
+
+[33mcommit d5b84dac935c1f8bd4482d6cc2a5aeca81358734[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Wed Apr 24 18:28:43 2019 -0400
+
+    Fix className for delete buttons
+
+[33mcommit aa826ce7c24c190680973494b5567ebec1cac833[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Wed Apr 24 18:13:16 2019 -0400
+
+    Add CLEAR_ERRORS case to errorReducer
+
+[33mcommit 8f1d2cdad9c857d558470b97adc342a643e2c58a[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Wed Apr 24 18:12:09 2019 -0400
+
+    Add clearErrors action
+
+[33mcommit 5ba0871d48258621481e43a4c4fb64965fe95568[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Wed Apr 24 18:04:14 2019 -0400
+
+    Add onDeleteClick method
+
+[33mcommit 084b383273e7e34302bd2e6d5e524ed781aec66c[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Wed Apr 24 18:03:05 2019 -0400
+
+    Add deleteComment action
+
+[33mcommit 2c87b463585f07f9a4433033199596fc1e21714a[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Wed Apr 24 18:01:44 2019 -0400
+
+    Remove extra div from CommentItem jsx markup
+
+[33mcommit 2dbac42e2640a8e53d193dd40653672ebb504c22[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Wed Apr 24 17:57:00 2019 -0400
+
+    Add CommentFeed to postContent logic
+
+[33mcommit 10fb1740d9a23f0d9af187c5a7b8e0d3db81cd83[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Wed Apr 24 17:55:56 2019 -0400
+
+    Add CommentItem class component
+
+[33mcommit 50a55f499c5d3310fa4f513b92af0437d96089fe[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Wed Apr 24 17:32:43 2019 -0400
+
+    Add CommentFeed class component
+
+[33mcommit d58193c3042ae93fd9e8d1c9bdda6445479d068e[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Wed Apr 24 17:25:34 2019 -0400
+
+    Add CommentItem.js file
+
+[33mcommit d4596f118114a048806bc344d27d86805c600984[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Wed Apr 24 17:25:21 2019 -0400
+
+    Add CommentFeed.js file
+
+[33mcommit 88a009e3df5cfd791627ae0012894cbbf5608eb3[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Wed Apr 24 17:20:23 2019 -0400
+
+    Add CommentForm to postContent logic
+
+[33mcommit 41d5312328657c391c08fc21f9c3b22dfdcc7238[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Wed Apr 24 17:19:00 2019 -0400
+
+    Add Comment action
+
+[33mcommit c13ea25b8059f1ae04cde8c4b106ffbf46ec9758[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Wed Apr 24 17:17:16 2019 -0400
+
+    Add CommentForm class component
+
+[33mcommit 19bae70324474c3d7d38e9dae4c8f790eddd88ed[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Wed Apr 24 17:10:11 2019 -0400
+
+    Add CommentForm.js file
+
+[33mcommit 8daf8234ea01f98389b7e7f5e9dbd88237e1a6ab[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Wed Apr 24 17:05:45 2019 -0400
+
+    Fix typo
+
+[33mcommit f08ca8be6e3d7b3f98fc3ff3985e49799b72abe5[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Wed Apr 24 17:03:29 2019 -0400
+
+    Add default props
+
+[33mcommit 1ec3b4112a2b5210f2b8a61c5ab5f529fd3dc56d[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Wed Apr 24 17:03:02 2019 -0400
+
+    Add showActions logic
+
+[33mcommit f59fbde66b91889cffc488becb8891c74ee23aa7[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Wed Apr 24 17:01:10 2019 -0400
+
+    Add jsx markup for Post
+
+[33mcommit 0262ada01091b0c78c4610681c8ed371ed748433[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Wed Apr 24 16:57:16 2019 -0400
+
+    Add postContent logic
+
+[33mcommit 3e694b111d3075c3329b6330e15726fef59d6030[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Wed Apr 24 16:51:19 2019 -0400
+
+    Add componentDidMount method
+
+[33mcommit e6cb6a816eb99b06b4b6d40ed180b6d23b8fba71[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Wed Apr 24 16:50:16 2019 -0400
+
+    Add prop types
+
+[33mcommit 72b12c8792bc2b47ff53f1f0d6bdfdf20de5242a[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Wed Apr 24 16:49:43 2019 -0400
+
+    Add mapStateToProps
+
+[33mcommit f189b09c9dff1a9947249474aecc5f8a6a74abea[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Wed Apr 24 16:47:45 2019 -0400
+
+    Add GET_POST case
+
+[33mcommit e75d913392be066747f02ce1beb2d10e76aaaf39[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Wed Apr 24 16:46:55 2019 -0400
+
+    Add getPost action
+
+[33mcommit 3f38a3ed150933681947d6db28689628f721710e[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Wed Apr 24 16:44:14 2019 -0400
+
+    Add private route for Post
+
+[33mcommit e1271f7c063e9c1646cd221f39ef3b2ea7a8c476[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Wed Apr 24 16:43:26 2019 -0400
+
+    Set up Post class component
+
+[33mcommit a8c7dd5af8c57caa37a29570fbb11ccdf1887ff6[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Wed Apr 24 16:43:04 2019 -0400
+
+    Add Post.js file
+
+[33mcommit 5434e66bee27f32561056ff51e1440ded069c3d7[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Tue Apr 23 19:33:27 2019 -0400
+
+    Add findUserLike method
+
+[33mcommit 6095e19c6f81853de38a9e8f61295daf2e30e1dc[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Tue Apr 23 19:29:54 2019 -0400
+
+    Fix typo
+
+[33mcommit acfd7f09779590135fc67d01f718985c1074cab5[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Tue Apr 23 19:29:06 2019 -0400
+
+    Add onUnlikeClick method
+
+[33mcommit d0edbd8a7a9690a3953ab76e94ea4688eaefcc3d[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Tue Apr 23 19:28:33 2019 -0400
+
+    Add onLikeClick method
+
+[33mcommit 33d8a195b4bd4a956709f1d1f1bb4bbdb9832962[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Tue Apr 23 19:24:59 2019 -0400
+
+    Add removeLike action
+
+[33mcommit 03a01c27257d7eb896c4b282192954a955cce28e[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Tue Apr 23 19:24:14 2019 -0400
+
+    Add addLike action
+
+[33mcommit 02b5b00d97b6b22504ebc645bfba45c3b0430d9e[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Tue Apr 23 19:22:26 2019 -0400
+
+    Add deletePost to PostItem component
+
+[33mcommit 404abe5d1eeb4963733e2ef6fd13b077d0b9d6fd[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Tue Apr 23 19:20:03 2019 -0400
+
+    Add DELETE_POST case
+
+[33mcommit 0df4e3e543843ea8e7e47d4547c589a967342989[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Tue Apr 23 19:15:54 2019 -0400
+
+    Add deletePost action
+
+[33mcommit 7890c0ab88ffd9ef99779e60dc040fad93cf2530[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Tue Apr 23 19:13:27 2019 -0400
+
+    Add PostItem jsx markup
+
+[33mcommit 2bc1d3c2a588d5a6726f0673c098d9373505d19d[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Tue Apr 23 19:00:46 2019 -0400
+
+    Set up PostItem class component
+
+[33mcommit f8ed18567c45e4555f516ebc874516837a0b963d[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Tue Apr 23 18:54:52 2019 -0400
+
+    Add postFeed component class logic
+
+[33mcommit 2b5474f1cdf730117e77e9b4596ea5e00ea6c698[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Tue Apr 23 18:49:06 2019 -0400
+
+    Add PostItem.js file
+
+[33mcommit ffefc5c0f3812157085724fafc4e8510062464d4[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Tue Apr 23 18:48:53 2019 -0400
+
+    Add PostFeed.js file
+
+[33mcommit e73853436f0d5208055aac5d40a507702b22dcb6[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Tue Apr 23 18:48:36 2019 -0400
+
+    Add postContent logic
+
+[33mcommit 6e1c1b333bca1ef7eaa279b03849dcfadefe779a[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Tue Apr 23 18:46:24 2019 -0400
+
+    Add componentDidMount method to Posts
+
+[33mcommit 87f9269d35d11fd581aa42c02d912a1542821e40[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Tue Apr 23 18:44:40 2019 -0400
+
+    Add prop types for Posts
+
+[33mcommit e1066aea176e01855c0e025fafd06db79e0d3ef3[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Tue Apr 23 18:44:14 2019 -0400
+
+    Add mapStateToProps
+
+[33mcommit f44ef02c73b26ca38ca1d210f54a1ad29075b2c5[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Tue Apr 23 18:42:04 2019 -0400
+
+    Add GET_POSTS case
+
+[33mcommit aec9f35ce26658046955d8bdb741e20b1e7bf073[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Tue Apr 23 18:41:29 2019 -0400
+
+    Add POST_LOADING case
+
+[33mcommit 300cb236c23717141af9d2c9a437e5e025ca8e4a[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Tue Apr 23 18:40:16 2019 -0400
+
+    Update getPosts action
+
+[33mcommit d4cd2bf9c99d21e5249d480e8ca1838f0e6c09ac[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Tue Apr 23 18:38:04 2019 -0400
+
+    Add getPosts action
+
+[33mcommit 7fcd5e0bdbb91e2cbd80b7e39c55ceeb552a655a[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Tue Apr 23 18:34:29 2019 -0400
+
+    Add ADD_POST case
+
+[33mcommit 2a2dbbf4bbf9f142c31e1c691ff5c59b74c512b8[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Tue Apr 23 18:32:02 2019 -0400
+
+    Add componentWillReceiveProps method
+
+[33mcommit 53f447749f5f14aef61b4b22ce43c9e98b4508a7[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Tue Apr 23 18:29:24 2019 -0400
+
+    Add newPost logic into onSubmit method
+
+[33mcommit 2e6ad6be1ca17966c056ca60ab34bd537977528b[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Tue Apr 23 18:27:26 2019 -0400
+
+    Add prop types for PostForm
+
+[33mcommit 4ee995f1145e87e4431a30ec66eb55b57ed68beb[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Tue Apr 23 18:16:55 2019 -0400
+
+    Add mapStateToProps and use connect
+
+[33mcommit a93461d00f869ebfe88b1af3055cfc387dc766bc[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Tue Apr 23 18:15:50 2019 -0400
+
+    Add jsx markup for PostForm
+
+[33mcommit 2f7e3bd95cdb1502e20d802317fccbc4ec955998[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Tue Apr 23 18:07:38 2019 -0400
+
+    Add state to PostForm
+
+[33mcommit 39b9155be320cd7b8845b51d62248f6195498d72[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Tue Apr 23 18:07:17 2019 -0400
+
+    Set up PostForm class component
+
+[33mcommit f87004e6cf2c7fc48ab6e7ed592dcabeefcf2854[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Tue Apr 23 18:03:51 2019 -0400
+
+    Add Post Feed to Navbar
+
+[33mcommit 45630b172446ace30c300c5488dc97fdf1fb28de[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Tue Apr 23 18:02:11 2019 -0400
+
+    Add private route for Posts
+
+[33mcommit 34e529e903bedbbb5361337735d98cf1e0915d93[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Tue Apr 23 18:01:05 2019 -0400
+
+    Add jsx markup
+
+[33mcommit 5353e50918c1a0c10200c3d1acc7bf62f4289809[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Tue Apr 23 17:59:22 2019 -0400
+
+    Set up Posts class component
+
+[33mcommit 66d5caa3441eeb0a275217092f319aff01213e22[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Tue Apr 23 17:58:03 2019 -0400
+
+    Add PostForm.js file
+
+[33mcommit 01da2612c437acf459017ffac9b38bf20340eb66[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Tue Apr 23 17:57:49 2019 -0400
+
+    Add Posts.js file
+
+[33mcommit cdfe9390433fa12e4e61ff39a494cee43b14923e[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Tue Apr 23 17:57:04 2019 -0400
+
+    Add addPost action
+
+[33mcommit 6d28e3f1fe182ba122d2d413d79db5bf99b0cd1f[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Tue Apr 23 17:54:15 2019 -0400
+
+    Add postActions.js file
+
+[33mcommit 44a5c39ab2f67c99077c87f6ebdacab2dcac5840[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Tue Apr 23 17:52:13 2019 -0400
+
+    Add postReducer to index .js
+
+[33mcommit 81c85a3ccf7b9396db8d2e39de8b0c2c74a15ef3[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Tue Apr 23 17:51:20 2019 -0400
+
+    Add new types
+
+[33mcommit b7c0cb6eaedd718b01006402096634fcf3751c25[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Tue Apr 23 17:49:51 2019 -0400
+
+    Add initialState
+
+[33mcommit 5251a5f60f2beef4ae0ceb4b35c72562e13244f0[m
+Author: Ryan Silva <ryandotsilva@gmail.com>
+Date:   Tue Apr 23 17:47:34 2019 -0400
+
+    Add postReducer.js file
+
+[33mcommit 824c4fa12cded53ecf47bbe29f0f4efa8bf684c5[m
+Author: Ryan Silva <RyandotSilva@gmail.com>
+Date:   Mon Apr 22 16:20:09 2019 -0400
+
+    Add componentWillReceiveProps method
+
+[33mcommit d9664ad9536ad4b50c6e9f4c285eb65f0fd39d7c[m
+Author: Ryan Silva <RyandotSilva@gmail.com>
+Date:   Mon Apr 22 16:17:46 2019 -0400
+
+    Add NotFound route to main App
+
+[33mcommit bf2ec8be6c4e680fc29b498f0366f19864948875[m
+Author: Ryan Silva <RyandotSilva@gmail.com>
+Date:   Mon Apr 22 16:16:27 2019 -0400
+
+    Add markup for page not found
+
+[33mcommit c766543e5a9b3bb216a3e07a68b608d5b64c1c5a[m
+Author: Ryan Silva <RyandotSilva@gmail.com>
+Date:   Mon Apr 22 16:15:36 2019 -0400
+
+    Add NotFound.js file
+
+[33mcommit 7c153f0c376235ae6c1aaf8a016bceae0d534165[m
+Author: Ryan Silva <RyandotSilva@gmail.com>
+Date:   Mon Apr 22 16:14:41 2019 -0400
+
+    Add logic for no github username
+
+[33mcommit 994f56405cdfb06c6bb09a0e47831beecf08bbd5[m
+Author: Ryan Silva <RyandotSilva@gmail.com>
+Date:   Mon Apr 22 16:09:59 2019 -0400
+
+    Add prop types for ProfileAbout
+
+[33mcommit e8dd100e44ddb5e6041bf778c0fa93bda3a5c91e[m
+Author: Ryan Silva <RyandotSilva@gmail.com>
+Date:   Mon Apr 22 16:09:24 2019 -0400
+
+    Add jsx markup to for ProfileGithub
+
+[33mcommit 550b2566a385298b72d7f094b824286efc8f5b82[m
+Author: Ryan Silva <RyandotSilva@gmail.com>
+Date:   Mon Apr 22 15:46:02 2019 -0400
+
+    Add displays for education and experience
+
+[33mcommit 73d0490fa2077f362742c96a7a3ac4b9f8baeaf5[m
+Author: Ryan Silva <RyandotSilva@gmail.com>
+Date:   Mon Apr 22 15:41:20 2019 -0400
+
+    Add eduItems jsx markup to ProfileCreds
+
+[33mcommit 1578b513251a08ac9f935b310a1baca38b008229[m
+Author: Ryan Silva <RyandotSilva@gmail.com>
+Date:   Mon Apr 22 15:39:08 2019 -0400
+
+    Add expItems jsx markup for ProfileCreds
+
+[33mcommit ee5a47f45795704df806573c542f8869db9422e5[m
+Author: Ryan Silva <RyandotSilva@gmail.com>
+Date:   Mon Apr 22 15:32:43 2019 -0400
+
+    Add jsx markup for ProfileAbout
+
+[33mcommit 20d9dc446f7fd3a7269ba4af5f18a2a8511c730d[m
+Author: Ryan Silva <RyandotSilva@gmail.com>
+Date:   Mon Apr 22 15:13:00 2019 -0400
+
+    Add jsx markup for ProfileHeader
+
+[33mcommit 84ae98ffe92aa01f804a0ce4cca7f0385b9542d6[m
+Author: Ryan Silva <RyandotSilva@gmail.com>
+Date:   Mon Apr 22 15:01:14 2019 -0400
+
+    Add profileContent logic
+
+[33mcommit 11fdff1dbb7cf7ea7460bda53a4830cf48bf92f9[m
+Author: Ryan Silva <RyandotSilva@gmail.com>
+Date:   Sun Apr 21 19:52:02 2019 -0400
+
+    Add jsx markup to Profile
+
+[33mcommit fbe5fdadebd3f9e4677821e5b7b72c3084e5b93c[m
+Author: Ryan Silva <RyandotSilva@gmail.com>
+Date:   Sun Apr 21 19:49:52 2019 -0400
+
+    Add getProfileByHandle to connect and prop types
+
+[33mcommit 1a0a98bf97ed7f04faa1547a6e2cc9eda7ff96ae[m
+Author: Ryan Silva <RyandotSilva@gmail.com>
+Date:   Sun Apr 21 19:48:36 2019 -0400
+
+    Add Profile route to App
+
+[33mcommit 6b550edcdb46155f33054c780686963c994e7eb7[m
+Author: Ryan Silva <RyandotSilva@gmail.com>
+Date:   Sun Apr 21 19:47:33 2019 -0400
+
+    Add get profile by handle action
+
+[33mcommit 9ea7a4dc1aa052883b4162b0ea0a3cad3012413f[m
+Author: Ryan Silva <RyandotSilva@gmail.com>
+Date:   Sun Apr 21 19:45:42 2019 -0400
+
+    Add componentDidMount method to profile

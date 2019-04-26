@@ -267,7 +267,7 @@ router.delete(
 				// Save
 				profile.save().then(profile => res.json(profile));
 			})
-			.catch(err => Response.status(404).json(err));
+			.catch(err => res.status(404).json(err));
 	}
 );
 
@@ -292,7 +292,7 @@ router.delete(
 				// Save
 				profile.save().then(profile => res.json(profile));
 			})
-			.catch(err => Response.status(404).json(err));
+			.catch(err => res.status(404).json(err));
 	}
 );
 

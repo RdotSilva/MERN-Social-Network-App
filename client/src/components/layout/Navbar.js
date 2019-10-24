@@ -42,7 +42,15 @@ class Navbar extends Component {
 						/>
 						Logout
 					</a>
-					/>
+				</li>
+				<li className="nav-item">
+					<Link className="nav-link" to="/contactus">
+						<i
+							class="fas fa-envelope-open"
+							style={{ width: "25px", marginRight: "1px" }}
+						></i>
+						Contact Us
+					</Link>
 				</li>
 			</ul>
 		);

@@ -33,9 +33,13 @@ class ProfileGithub extends Component {
 		const { repos } = this.state;
 
 		const repoItems = repos.map(repo => (
-			<div key={repo.id} className="card card-body mb-2">
+			<div
+				key={repo.id}
+				className="card card-body mb-2"
+				style={{ fontSize: "15px", borderRadius: "25px" }}
+			>
 				<div className="row">
-					<div className="col-md-6">
+					<div className="col-md-6 offset-md-3">
 						<h4>
 							<Link to={repo.html_url} className="text-info" target="_blank">
 								{repo.name}
@@ -43,14 +47,28 @@ class ProfileGithub extends Component {
 						</h4>
 						<p>{repo.description}</p>
 					</div>
-					<div className="col-md-6">
-						<span className="badge badge-info mr-1">
+					<div className="col-md-6 offset-md-3">
+						<span
+							className="badge badge-info mr-1"
+							style={{ fontSize: "15px" }}
+						>
 							Stars: {repo.stargazers_count}
 						</span>
-						<span className="badge badge-secondary mr-1">
+						<span
+							className="badge badge-secondary mr-1"
+							style={{ fontSize: "15px" }}
+						>
 							Watchers: {repo.watchers}
 						</span>
-						<span className="badge badge-success">Forks: {repo.forks}</span>
+						<span
+							className="badge badge-success mr-1"
+							style={{ fontSize: "15px" }}
+						>
+							Forks: {repo.forks}
+						</span>
+						<span className="badge badge-warning" style={{ fontSize: "15px" }}>
+							{repo.language}
+						</span>
 					</div>
 				</div>
 			</div>
@@ -58,7 +76,7 @@ class ProfileGithub extends Component {
 		return (
 			<div ref="myRef">
 				<hr />
-				<h3 className="mb-4">
+				<h3 className="mb-5 text-center">
 					Latest Github Repos
 					{repoItems}
 				</h3>

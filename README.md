@@ -1,4 +1,4 @@
-# MERN Social Network 
+# MERN Social Network
 
 Full-stack Social Network application built to help developers link up with each other. Developers can create a new account, profile/portfilio, and make posts.
 
@@ -30,8 +30,8 @@ npm run dev
 ```
 
 ## Screenshots
-![Alt text](https://i.imgur.com/9p0zk9f.jpg "Optional title")
 
+![Alt text](https://i.imgur.com/9p0zk9f.jpg "Optional title")
 
 ## Built With
 

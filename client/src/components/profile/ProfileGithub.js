@@ -1,15 +1,15 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-import PropTypes from 'prop-types';
+import React, { Component } from "react";
+import { Link } from "react-router-dom";
+import PropTypes from "prop-types";
 
 class ProfileGithub extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			clientId: '5a0ab91e377535286f53',
-			clientSecret: '068ff76d9819d3be046ea09461d62c853cd9d281',
+			clientId: "5a0ab91e377535286f53",
+			clientSecret: "068ff76d9819d3be046ea09461d62c853cd9d281",
 			count: 5,
-			sort: 'created: asc',
+			sort: "created: asc",
 			repos: []
 		};
 	}
@@ -37,11 +37,7 @@ class ProfileGithub extends Component {
 				<div className="row">
 					<div className="col-md-6">
 						<h4>
-							<Link
-								to={repo.html_url}
-								className="text-info"
-								target="_blank"
-							>
+							<Link to={repo.html_url} className="text-info" target="_blank">
 								{repo.name}
 							</Link>
 						</h4>
@@ -54,9 +50,7 @@ class ProfileGithub extends Component {
 						<span className="badge badge-secondary mr-1">
 							Watchers: {repo.watchers}
 						</span>
-						<span className="badge badge-success">
-							Forks: {repo.forks}
-						</span>
+						<span className="badge badge-success">Forks: {repo.forks}</span>
 					</div>
 				</div>
 			</div>

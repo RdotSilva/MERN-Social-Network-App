@@ -6,6 +6,17 @@ import isEmpty from "../../validation/is-empty";
 class ProfileItem extends Component {
 	render() {
 		const { profile } = this.props;
+
+		let gender;
+
+		if (profile.sex === "male") {
+			gender = <i class="fas fa-male fa-2x"></i>;
+		} else if (profile.sex === "female") {
+			gender = <i class="fas fa-female fa-2x"></i>;
+		} else {
+			gender = <i class="fas fa-genderless fa-2x"></i>;
+		}
+
 		return (
 			<div className="card card-body bg-light mb-3">
 				<div className="row">
@@ -25,12 +36,13 @@ class ProfileItem extends Component {
 								<span>{profile.location}</span>
 							)}
 						</p>
+						<p>{isEmpty(profile.sex) ? null : <span>{gender}</span>}</p>
 						<Link to={`/profile/${profile.handle}`} className="btn btn-info">
 							View Profile
 						</Link>
 					</div>
 					<div className="col-md-4 d-none d-md-block">
-						<h4>Languges/Skills</h4>
+						<h4>Languages/Skills</h4>
 						<ul className="list-group">
 							{profile.skills.slice(0, 4).map((skill, index) => (
 								<li key={index} className="list-group-item">

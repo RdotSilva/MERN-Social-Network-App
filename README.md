@@ -1,6 +1,6 @@
 # MERN Social Network
 
-Full-stack Social Network application built to help developers link up with each other. Developers can create a new account, profile/portfilio, and make posts.
+DevLink is a full-stack Social Network application built to help developers link up with each other. Developers can create a new account, profile/portfolio, and make posts.
 
 ### Prerequisites
 

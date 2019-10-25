@@ -24,14 +24,14 @@ class ProfileItem extends Component {
 						<img src={profile.user.avatar} alt="" className="rounded-circle" />
 					</div>
 					<div className="col-lg-6 col-md-4 col-8">
-						<h3>{profile.user.name}</h3>
-						<p>
+						<h3 className="text-center">{profile.user.name}</h3>
+						<p className="text-center">
 							{profile.status}{" "}
 							{isEmpty(profile.company) ? null : (
 								<span>at {profile.company}</span>
 							)}
 						</p>
-						<p>
+						<p className="text-center">
 							{isEmpty(profile.location) ? null : (
 								<span>{profile.location}</span>
 							)}
@@ -47,7 +47,7 @@ class ProfileItem extends Component {
 						</Link>
 					</div>
 					<div className="col-md-4 d-none d-md-block">
-						<h4>Languages/Skills</h4>
+						<h4 className="text-center">Languages/Skills</h4>
 						<ul className="list-group">
 							{profile.skills.slice(0, 4).map((skill, index) => (
 								<li key={index} className="list-group-item">

@@ -23,12 +23,43 @@ class Landing extends Component {
 									Create your profile to link up with other Devs right now!
 								</p>
 								<hr />
-								<Link to="/register" className="btn btn-lg btn-info mr-2">
-									Sign Up
-								</Link>
-								<Link to="/login" className="btn btn-lg btn-light">
-									Login
-								</Link>
+								<div
+									className="card"
+									style={{
+										width: "15rem",
+										opacity: ".4",
+										backgroundColor: "black",
+										borderRadius: "15px",
+										display: "inline-block"
+									}}
+								>
+									<div className="card-body">
+										<h5 className="card-title">Ready to join?</h5>
+										<Link to="/register" className="btn btn-lg btn-info mr-2">
+											Sign Up
+										</Link>
+									</div>
+								</div>
+								<div
+									className="card"
+									style={{
+										width: "15rem",
+										opacity: ".4",
+										backgroundColor: "black",
+										borderRadius: "10px",
+										display: "inline-block",
+										margin: "20px"
+									}}
+								>
+									<div className="card-body">
+										<h5 className="card-title" style={{ color: "#17A2B8" }}>
+											Already registered?
+										</h5>
+										<Link to="/login" className="btn btn-lg btn-light">
+											Login
+										</Link>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>

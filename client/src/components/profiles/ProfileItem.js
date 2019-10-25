@@ -23,7 +23,7 @@ class ProfileItem extends Component {
 					<div className="col-2">
 						<img src={profile.user.avatar} alt="" className="rounded-circle" />
 					</div>
-					<div className="col-lg-6 col-md-4 col-8">
+					<div className="col-lg-6 col-md-4 col-8 text-center">
 						<h3 className="text-center">{profile.user.name}</h3>
 						<p className="text-center">
 							{profile.status}{" "}
@@ -41,7 +41,7 @@ class ProfileItem extends Component {
 						</p>
 						<Link
 							to={`/profile/${profile.handle}`}
-							className="btn btn-info view-profile-btn"
+							className="btn btn-info view-profile-btn "
 						>
 							View Profile
 						</Link>

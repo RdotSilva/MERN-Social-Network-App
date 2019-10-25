@@ -31,7 +31,7 @@ npm run dev
 
 ## Screenshots
 
-![Alt text](https://i.imgur.com/9p0zk9f.jpg "Optional title")
+![DevLink](https://i.imgur.com/eUO3Ryw.jpg "DevLink landing page")
 
 ## Built With
 

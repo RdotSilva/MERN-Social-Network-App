@@ -55,7 +55,10 @@ class Landing extends Component {
 										<h5 className="card-title" style={{ color: "#17A2B8" }}>
 											Already registered?
 										</h5>
-										<Link to="/login" className="btn btn-lg btn-light">
+										<Link
+											to="/login"
+											className="btn btn-lg btn-light login-btn-main"
+										>
 											Login
 										</Link>
 									</div>

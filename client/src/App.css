@@ -41,3 +41,8 @@ img {
 .contact-message {
 	resize: none;
 }
+
+.view-profile-btn:hover {
+	background-color: #00cc96; /* Green */
+	color: white;
+}

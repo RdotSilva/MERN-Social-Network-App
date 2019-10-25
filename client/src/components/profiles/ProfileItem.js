@@ -37,7 +37,10 @@ class ProfileItem extends Component {
 							)}
 						</p>
 						<p>{isEmpty(profile.sex) ? null : <span>{gender}</span>}</p>
-						<Link to={`/profile/${profile.handle}`} className="btn btn-info">
+						<Link
+							to={`/profile/${profile.handle}`}
+							className="btn btn-info view-profile-btn"
+						>
 							View Profile
 						</Link>
 					</div>

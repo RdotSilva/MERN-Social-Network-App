@@ -1,6 +1,10 @@
-# MERN Social Network
+# MERN DevLink Social Network
 
-DevLink is a full-stack Social Network application built to help developers link up with each other. Developers can create a new account, profile/portfolio, and make posts.
+DevLink is a full stack Social Network web application built to help developers link up with each other. Find someone to collaborate with, post a cool article, or even find candidates to hire for your next project.
+
+Users can create an account and add a full profile/portfolio for others to view. Users can also create new posts in the feed and reply to other developers. Users can even add their GitHub username and have profile information automatically displayed using the GitHub API so others can see their latest work.
+
+Live Demo: https://devlink-social-network.herokuapp.com/
 
 ### Prerequisites
 
@@ -29,10 +33,6 @@ npm install
 npm run dev
 ```
 
-## Screenshots
-
-![DevLink](https://i.imgur.com/eUO3Ryw.jpg "DevLink landing page")
-
 ## Built With
 
 - React
@@ -41,6 +41,14 @@ npm run dev
 - ExpressJS
 - MongoDB
 - Redux
+
+## APIs used
+
+- https://developer.github.com/v3/
+
+## Screenshots
+
+![DevLink](https://i.imgur.com/eUO3Ryw.jpg "DevLink landing page")
 
 ## License
 
